@@ -1,4 +1,4 @@
-- (Python 1-1강) Basic computer class for newbies (기본적인 컴퓨터에 대한 이해_
+- (Python 1-1강) Basic computer class for newbies : 기본적인 컴퓨터에 대한 이해
   - 파일시스템 : os에서 파일을 저장하는 *트리구조* 저장 체계
   - 윈도우 + E  -> 파일 탐색기
   - 디렉토리(폴더) vs 파일
@@ -11,3 +11,25 @@
   - 윈도우 터미널 : 윈도우 + r -> cmd입력 / 윈도우에서는 powershell, cmd 창 등등
   - mkdir : make directory / ..\ : 한칸 앞에 가라 / tab키 : 긴거 바로 나오게 해줌
   - [윈도우 CMD 명령어 목록](https://zetawiki.com/wiki/%EC%9C%88%EB%8F%84%EC%9A%B0_CMD_%EB%AA%85%EB%A0%B9%EC%96%B4_%EB%AA%A9%EB%A1%9D)
+
+- (Python 1-2강) 파이썬 개요 : Life is Short, You Need Python.
+  - PEP : 파이썬의 개선사항
+  - 파이썬 : 플랫폼 독립적인 인터프리터 언어(운영체제에 상관없는)
+  - 컴파일러 : 소스코드를 기계어로 먼저 번역(C,자바) , 조금 더 빠름
+  - 인터프리터 : 소스코드를 실행시점에 해석(파이썬 ,스칼라), 코드가 더 쉬움
+  - 파이썬은 객체 지향 동적 타이핑 언어
+  - 객체지향적 언어: 실행 순서가 아닌 단위모듈(객체) 중심으로 프로그램을 작성
+  - 동적타이핑 언어: 프로그램이 실행하는 시점에 프로그램이 사용해야 할 데이터에 대한 타입을 결정함
+  - 갈수록 사람의 시간이 기계의 시간 보다 중요하며, 파이썬은 다양한 라이브러리를 제공하기에 써야 한다!
+  
+  
+- (Python 1-3강) 파이썬 코딩 환경 : vscode / miniconda / jupyter /colab
+  - miniconda 설치 권장
+  - vscode 설치 후 cmd 에서 code. 으로 실행하기
+  - 주피터 설치(이미 함)
+  - 코랩 : 구글드라이브 + GCP(Google Cloud Platform) + Jupyter / 코랩에서 쓰는 메모리는 내 노트북이 아닌 원격서버/ 코랩 명령어는 주피터 명령어에 m 키가 추가 되는 느낌
+  
+  코랩은 주피터 명령어에 m추가되는느낌
+
+
+ 
