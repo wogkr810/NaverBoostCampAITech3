@@ -53,7 +53,14 @@
     - format함수 : format(x,y) , {0,1} :순서대로 / dict()형식 가능 -> key :{} , value : format(여기)
     - f-string : print(f"~~{}~~") / > 오른쪽 , < 왼쪽 , ^ 가운데 정렬 /*< 왼쪽정렬 및 나머지부분 * 로채우기 , *^20 : 20칸 채울건데 가운데정렬하고 나머지는 *로
   - 섭씨와 화씨 : input 받으면 항상 str -> 형 변환 필요
-  섭씨와 화씨  : input받으면 항상 str ->형변환필요
+
+- (Python 2-3강) Conditionals and Loops :
+  - x==y vs x is y <- 비슷해보이지만 , is는 메모리의 주소를 비교 / -5~256의값은 자주 쓰이는 값이므로 미리 저장해둬서 is와 ==는 같은 기능을 하지만, 그 이외의 값은 다름
+  - 자주쓰니까 미리 저장해둔 정적메모리
+  - 조건문에서 숫자와 str은 존재하면 True / ''또는 값이 없을 경우 False
+  - Boolean 값으로 List 만들었을경우, all : and , any : or 의 기능 / EX: list=[T,F,T,F,T] -> all(list)=F, any(list)=T , not(list)=F
+  - 삼항연산자(코테에서 list comprehension 같은) : True if ~ else False
+  - 20<=x<=26 으로 하고 싶겠지만, 20<=x and x<=26으로 연결해야 함
 
 
  
