@@ -1,1 +1,13 @@
-ㅁ
+- (Python 1-1강) Basic computer class for newbies (기본적인 컴퓨터에 대한 이해_
+  - 파일시스템 : os에서 파일을 저장하는 *트리구조* 저장 체계
+  - 윈도우 + E  -> 파일 탐색기
+  - 디렉토리(폴더) vs 파일
+  - 절대경로 : 루트 디렉토리부터 파일위치까지 / 상대경로 : 현재 있는 디렉토리부터 파일까지의 경로
+  - 터미널 : 마우스가 아닌 키보드로 명령을 입력하여 프로그램 실행
+  - GUI(Graphical user interface) vs CLI(command line interface)
+  - CLI: GUI와 달리 text를 사용하여 컴퓨터에 명령을 입력하는 인터페이스 체계
+  - 윈도우 : cmd, 윈도우 터미널 / 맥,리눅스 : 터미널
+  - 콘솔 = 터미널 = cmd
+  - 윈도우 터미널 : 윈도우 + r -> cmd입력 / 윈도우에서는 powershell, cmd 창 등등
+  - mkdir : make directory / ..\ : 한칸 앞에 가라 / tab키 : 긴거 바로 나오게 해줌
+  - [윈도우 CMD 명령어 목록](https://zetawiki.com/wiki/%EC%9C%88%EB%8F%84%EC%9A%B0_CMD_%EB%AA%85%EB%A0%B9%EC%96%B4_%EB%AA%A9%EB%A1%9D)
