@@ -173,4 +173,28 @@
       - configparser : 프로그램의 실행설정을 file에 저장
       - argparser : console 창에서 프로그램 실행 시 세팅정보를 저장 함
     
-  - 
+- (Python 5-2강) Python data handling : 여러 데이터 다루기!
+  - CSV(Comma Separate Value) : 쉼표로 구분한 텍스트파일 , 엑셀양식의 데이터를 프로그램에 상관없이 쓰기 위한 데이터 형식
+    - 사용되는 인자
+      - delimiter : 글자를 나누는 기준
+      - quotechar : 문자열을 둘러싸는 신호 문자
+      - u"" <- 유니코드의 약자
+  - Web(World Wide Web)
+  - HTML : 웹상의 정보를 구조적으로 표현
+  - 정규식 : 복잡한 문자열 패턴을 정의하는 문자표현공식, 특정한 규칙을 가진 문자열의 집할을 추출
+    - 파이썬 
+      - import re
+      - search : 한개 찾기 , findall : 전체찾기
+  - XML : 데이터의 구조와 의미를 설명하는 태그(MarkUp)을 사용하여 표시하는 언어
+    - 태그와 태그 사이에 값이 표시 됨
+    - 정규표현식 으로 파싱 가능
+    - BeautifulSoup 으로 parser 많이 쓰임
+  - JSON(Java Script Object Notation) : 자바 스크립트의 데이터 객체 표현 방식
+    - 간결성, 데이터용량이 적고 코드로의 전환이 쉬움
+    - 파이썬의 dict type과 유사하게 Key - Value 쌍으로 데이터 표시
+    - XML -> JSON 이 간결하게 표현가능
+    - 파이썬에서는 import json
+    - dict type과 데이터 저장 및 읽기 상호 호환 가능
+    - 페북 , 트위터, 깃허브 등 거의 모든 사이트에서 사용
+    - read: load / write : dump
+
