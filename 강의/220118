@@ -1,0 +1,21 @@
+- (Python 2-4강) String and advanced function concept : 코딩은 팀플
+  - 인코딩 : utf-8 주로 사용
+  - 메모리 공간에 따라 할당받은 크기가 다름 ( int vs float)
+  - raw string : r" ~ " -> 역슬래시(\)안먹힘!
+  - 파이선은 call by object reference (객체의 주소가 함수로 전달되는 방식)
+  - 지역변수 : 함수 내에서만 사용 vs 전역변수 : 프로그램전체에서 사용 ( 함수내에서 전역변수 사용 시 global 키워드 사용)
+  - 지역변수는 전역변수에 영향 주지 않음
+  - 재귀함수: 자기자신을 호출
+  - docstring : 파이썬 함수에 대한 상세스펙을 사전에 작성하여 소통 가능
+  - vscode 에서 docstring 설치 ->깔끔하고 이쁨
+  - Type Hint : def type_hint(x : int , y : int ) -> int     <-- 이런식으로
+  - 함수 가이드라인
+    - 짧게 작성
+    - 이름에 역할 들어나게 
+    - VO(verb - obejct) 형태로
+    - 하나의 함수에는 유사한 역할을 하는 코드만 포함
+    - 인자로 받은 값 바꾸지말기 (차라리 복사를 해라!)
+    - 들여쓰기 : tab보단 4-space! / 혼합은 안 됨!
+  - 코딩 컨벤션
+    - 함수명은 소문자
+    - 요즘은 black! (연구소 1주차 세미나 참고하기)
