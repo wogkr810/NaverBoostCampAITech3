@@ -103,4 +103,17 @@
       - 순서 : parameter, keyword argument, variable length, keyword variable length
       - 추가적으로 *는 unpacking a container로도 쓰임 : tuple, dict등 자료형에 들어가 있는 값을 unpacking
       - **는 dict타입 unpacking
-    
+      
+ - (Python 4-1강) Python Object Oriented Programming : 객체지향 프로그래밍
+  - 객체 : 실생활에서 일종의 물건, 속성(변수) 및 행동(함수)을 가짐
+  - 함수 : snake_case vs 클래스 : CamelCase
+  - Magic Method(예약어) 
+    - __str__ : print문 했을 때 해당 함수 나옴
+    - __add__ : 더해줌
+  - self : 생성된 인스턴스 자신을 의미 
+    - Ex : class JaeHak(): 으로 정의 했을 때, person=JaeHak() , person.함수() <- person이 self 느낌
+  - 객체의 특징
+    - 상속: super()
+    - 다형성 : Animal class -> cat(animal) & dog(animal) 같이 다양하게 상속 가능 (하나의 객체가 여러 가지 타입 갖을 수 있음)
+    - 가시성 : self.__ <- private 변수로 선언 하여 타객체가 접근 못하게 함 / @property를 통해 보이게 할 수 있음
+  - decorate : ????????????????????????????
