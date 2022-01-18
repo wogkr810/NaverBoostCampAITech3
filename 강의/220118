@@ -117,3 +117,22 @@
     - 다형성 : Animal class -> cat(animal) & dog(animal) 같이 다양하게 상속 가능 (하나의 객체가 여러 가지 타입 갖을 수 있음)
     - 가시성 : self.__ <- private 변수로 선언 하여 타객체가 접근 못하게 함 / @property를 통해 보이게 할 수 있음
   - decorate : ????????????????????????????
+  
+  
+- (Python 4-2강) Module and Project : 모듈 쓰기!
+  - import 하면 모듈 안의 모든 코드가 메모리에 로딩 됨
+  - pyc : 파이썬 컴파일러 -> 다음에 쓸 때 미리 메모리에 있으므로 바로 쓸 수 있음
+  - from 과 import를 통해 필요한 내용만 골라서 호출 할 수 있음
+  - 모듈 불러오는 방법
+    - 1.Alias(별칭) 이용 -> import matplotlib.pyplot as plit
+    - 2. from ~ import ~    : 쓸 거
+    - 3. from 모듈 import * :전체
+    - 1번 Alias 써야 어디서 가져왔는지 다른 사람들과 공유할 수 있으므로 가장 추천!
+    - Bulit-in Module : random, math , time 등등
+    - 패키지(모듈 모음) : 하나의 대형 프로젝트를 만드는 코드 묶음
+      - 모듈 import 할 때 폴더여도 모듈 다루듯이 from ~ import 사용 가능
+      - 패키지 한꺼번에 설치하면 충돌있으니 가상환경 설정하기(Geopandas 설치 할 때 겪은 오류)
+      - pip vs conda : 파이썬은 C 기반언어 -> 컴파일된 코드가 필요함 -> pip는 없기 때문에 conda가 windows에서 장점
+        - 윈도우 : conda
+        - linux, amac : conda or pip
+      - tqdm : 반복문 얼마나 남았는지 시간 확인
