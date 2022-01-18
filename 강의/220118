@@ -136,3 +136,41 @@
         - 윈도우 : conda
         - linux, amac : conda or pip
       - tqdm : 반복문 얼마나 남았는지 시간 확인
+- (Python 5-1강) File / Exception / Log Handling : 프로그램 사용할 때 일어나는 흔한 일 들
+  - 예외:
+    - 예상 가능한 : 정보 잘못입력했을 경우
+    - 예상 불가능한 : 인터프리터 과정에서 발생하는 예외
+  - 파이썬에서의 예외처리 :
+    - try <예외발생가능코드> except <예외 발생시 대응하는 코드>
+    - if else 조건문으로도 가능하긴 함, 하지만 except문 권장
+    - finally : 예외 발생 여부와 상고나없이 항상 실행됨
+    - raise : 필요에 따라 강제로 exception을 발생
+    - assert : 특정 조건에 만족하지 않을 경우 예외발생
+  - Built-in ERROR (기본적으로 제공하는 예외 많음)
+    - Except ZEROdivisonerror : 0으로 숫자 나눌 때 예외처리 
+    - Valuerror : 부적절한 값을 가진 인자를 받았을 때
+  - 파일(text vs binary) 
+    - text파일 vs binary 파일(컴퓨터만 이해할 수 있는 이진법 형식 파일)
+    - txt파일로 열리면 text, 한글파일과 같이 메모장에 옮겼을때 메모장 깨지고 중국말 같은거 나오면 binary파일
+    - 컴퓨터는 text파일을 처리하기 위해 binary파일로 변환시킴
+    - 모든 text파일은 실제로 binary 파일
+  - 파일(읽기,쓰기,추가)
+    - r(read) : 읽기
+    - w(write) : 쓰기 (utf-8과 같은 인코딩 필요)
+    - a(append) : 추가
+  - 디렉토리 다루기
+    - os모듈 / Ex: 예전에 연구소에서 파일폴더 이름 할 때 "이름" + \\ + "파일" <- 이거 하지 말고 import shutil 이후에 os.path.join 하기
+    - 요즘에는 pathlib
+    - pickle : 파이썬의 객체를 저장하는 빌트인 객체 / 우리가 쓰는 함수나 변수등은 메모리에 있다가 프로그램 종료하면 없어짐 -> 실행중인 정보를 저장하고 불러와서 사용
+  - Logging Handiling : 핵을 어떻게 잡냐?
+    - 일단은 기록부터! 
+    - logging : 파이썬의 기본모듈 
+    - 프로그램 진행상황에 따라 다른 레벨의 로그를 출력함
+    - Debug -> Info -> Warning -> Error -> Critical / 사용자에겐 보통 warning 부터 알림
+    - basicconfig <- 이걸로 로그 알림 레벨 설정하면 됨!
+  - 단일 옵션 모음 : 정보를 저장하는 데 설정하는 방법
+    - configparser(파일) vs argparser(실행시점)
+      - configparser : 프로그램의 실행설정을 file에 저장
+      - argparser : console 창에서 프로그램 실행 시 세팅정보를 저장 함
+    
+  - 
