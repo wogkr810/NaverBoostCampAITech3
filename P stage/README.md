@@ -1,7 +1,5 @@
 # P stage1 : 마스크 분류대회 (2022.02.21 ~ 2022.03.04)
----
-> baseline by wogkr810<br>
-> [개인 깃허브](https://github.com/wogkr810/NaverBoostCampAITech3)
+> [baseline by Lee Jae Hak](https://github.com/wogkr810/NaverBoostCampAITech3)
 
 
 ## Getting Started    
