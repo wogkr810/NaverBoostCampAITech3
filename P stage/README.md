@@ -1,7 +1,6 @@
 # P stage1 : 마스크 분류대회 (2022.02.21 ~ 2022.03.04)
 > [baseline by Lee Jae Hak](https://github.com/wogkr810/NaverBoostCampAITech3)
 
-
 ## Getting Started    
 ### Dependencies
 - torch==1.6.0
