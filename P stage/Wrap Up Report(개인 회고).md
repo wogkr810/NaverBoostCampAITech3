@@ -33,23 +33,23 @@
     - 오피스아워 → 3번 들으면서, 코드 따라 쳐보기
     - 팀 노션,카톡 → 팀원분들의 속도에 맞추기 위해 자기 전에 한번씩 더 봄
 - **나는 어떤 방식으로 모델을 개선했는가?**
-    - vgg19bn**([링크](https://pytorch.org/vision/stable/models.html))**
+    - vgg19bn([링크](https://pytorch.org/vision/stable/models.html))
         - 오피스 아워 시간에 시현 해 주시는 것 보고 실제로 적용 → 성능 좋지 않아서 제출 x
-    - Efficientnet b6[**(링크)](https://github.com/lukemelas/EfficientNet-PyTorch)**
+    - Efficientnet b6[(링크)](https://github.com/lukemelas/EfficientNet-PyTorch)
         - 서버에 b6이 적절할 것 같다는 의견 수용 + vgg19 코드 참고하여 적용 → f1 : 0.49 , acc : 63  (~~train 99, val 96 나오길래 기록 갱신할 줄..?~~)
-    - Vit**[(링크)](https://github.com/lukemelas/PyTorch-Pretrained-ViT)**
+    - Vit[(링크)](https://github.com/lukemelas/PyTorch-Pretrained-ViT)
         - 한번 적용해보고 싶어서 시도 했지만, 오래걸려서 epoch 1 → f1 : 0.28 , acc : 37
-    - Efficientnet b7[**(링크)**](https://github.com/lukemelas/EfficientNet-PyTorch)
+    - Efficientnet b7[(링크)](https://github.com/lukemelas/EfficientNet-PyTorch)
         - b7의 성능이 b6보다 좋기에 epoch 늘려가면서(최대 40) 시도 → f1 : 0.61 , acc : 68
-    - Swin Transformer[**(링크)**](https://github.com/microsoft/Swin-Transformer)
-        - vit와 비교하면 파라미터 수 감소 및 연산량 감소**(🙏세연님)**
+    - Swin Transformer[(링크)](https://github.com/microsoft/Swin-Transformer)
+        - vit와 비교하면 파라미터 수 감소 및 연산량 감소(🙏세연님)
             - baseline에 적용(1 epoch, epoch당 20분..?) → f1: 0.66 , acc : 74
             - 라이트닝에 적용(5 epoch, epoch당 9분) - > f1: 0.77 , acc: 81
 - **나는 한 행동의 결과로 어떤 지점을 달성하고, 어떠한 깨달음을 얻었는가?**
     - f1 loss 적용
         - f1 loss : 0.7525 → 0.7763 달성하면서, 1위 재탈환
         - 느낀 점: 대회의 개요 파악 및 데이터에 맞는 loss 와metric에 대한 이해 필요!
-    - age 밴드 수정**(🙏태일님 아이디어) : (30 / 60) → (25,27,28,29,30 中 1개 /  55,58,59,60 中 1개)**
+    - age 밴드 수정(🙏태일님 아이디어) : (30 / 60) → (25,27,28,29,30 中 1개 /  55,58,59,60 中 1개)
         - f1 loss : 0.7763 → 0.7808
         - 느낀 점 : 배경제거하지 않은 데이터의 경우 (29,58) 이 최적!, EDA의 중요성
     - val ratio 수정
