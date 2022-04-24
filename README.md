@@ -14,3 +14,6 @@
     - [TIL, 최종정리](https://jaehahk.notion.site/2-P-stage-2b2106d4264b42b79453abcdde9a77e7)
     - [개인 회고록](https://jaehahk.notion.site/125c9a34d27a46009d578e5905e2d5e1)
     - [팀 Wrap-Up Report](https://colorful-bug-b35.notion.site/NLP-9-MnM-Wrap-up-report-6d20d7353b7a4e11befe2096c8246f9e)
+  - NLP 데이터제작 -> 13~14 주차(2022.04.11 ~ 2022.04.22)
+    - [팀 깃허브](https://github.com/boostcampaitech3/level2-data-annotation_nlp-level2-nlp-09)
+    - [팀 Wrap-Up Report](https://colorful-bug-b35.notion.site/NLP-9-MnM-Wrap-up-report-6766623487014f66a5f80da2a710d98c)
