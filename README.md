@@ -17,3 +17,5 @@
   - NLP 데이터제작 -> 13~14 주차(2022.04.11 ~ 2022.04.22)
     - [팀 깃허브](https://github.com/boostcampaitech3/level2-data-annotation_nlp-level2-nlp-09)
     - [팀 Wrap-Up Report](https://colorful-bug-b35.notion.site/NLP-9-MnM-Wrap-up-report-6766623487014f66a5f80da2a710d98c)
+  - ODQA ->15~17 주차(2022.04.25 ~ 2022.05.13)
+    - [팀 깃허브](https://github.com/boostcampaitech3/level2-mrc-level2-nlp-09)
