@@ -37,6 +37,6 @@
     - [프로젝트 소개](https://jaehahk.notion.site/2df14f6890a64a77a92dfe7d40aeab4c)
     - [팀 깃허브](https://github.com/boostcampaitech3/final-project-level3-nlp-09)
     - [프로젝트 개인정리](https://jaehahk.notion.site/Final-Project-0ee2cb8993c5406b9d22d5d345398030)
-    - [개인 회고록]
-    - [팀 Wrap-Up Report]
-    - [동료평가]
+    - [개인 회고록](https://jaehahk.notion.site/71f0b368a21c44b180913df76172d595)
+    - [팀 Wrap-Up Report](https://jaehahk.notion.site/NLP-9-MnM-Final-Project-Wrap-up-report-2de5b640970343caa0b02780633504cd)
+    - [동료평가](https://jaehahk.notion.site/_-dafc028649f64f1c8ce726d3a8a59c0d)
